@@ -1,0 +1,21 @@
+class p17{
+public static void main (String args[]){
+for(int row=1;row<=5;row++) {
+	for(int col=row;col<=row;col++) {
+		System.out.print(col);
+		System.out.print(10-row);
+
+		System.out.print(col);
+		System.out.print(10-row);
+
+		System.out.print(col);
+		System.out.print(10-row);
+
+		System.out.print(col);
+		System.out.print(10-row);
+	}
+
+	System.out.println("");
+}
+}
+}
